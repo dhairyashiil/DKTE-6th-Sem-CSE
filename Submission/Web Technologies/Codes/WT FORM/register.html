@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Registration form</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	
+	<div>
+		<p> REGISTRATION FORM </p>
+		<form action="form.php" method="post">
+		<label for="firstname"><b>First Name</b></label>
+		<br>
+		<input type="text" name="firstname" id="firstname" placeholder="FirstName"><br>
+		<label for="lastname"><b>Last Name</b></label>
+		<br>
+		<input type="text" name="lastname" id="lastname"  placeholder="LastName">
+		<br>
+		<label>
+			<b>Male</b> <input name="gender" value="male"type="radio" checked>
+			<b>Female</b> <input name="gender" value="female"type="radio">
+			
+		</label>
+		<br>
+		<label for="dob"><b>Date of Birth</b></label>
+		<br>
+		<input type="date" name="dob" id="dob">
+		<br>
+		<label for="mobno"><b>Contact No</b></label>
+		<br>
+		<input type="text" name="mobno" placeholder="Enter a valid mobile number" id="mobno">
+		<br>
+		<label for="email"><b>Email</b></label>
+		<br>
+		<input type="email" name="email" id="email" placeholder="Enter valid email-id">
+		<br>
+		<label for="address"><b>Address</b></label>
+		<br>
+		<textarea rows="1" cols="20" id="address" placeholder="Enter your current address"name="address"></textarea>
+		<br>
+		<label for="photo"><b>Photo</b></label>
+		<input type="file" name="img" accept="image/*">
+		<br>
+		<label for="username"><b>Username</b></label>
+		<br>
+		<input type="text" name="username" id="username" placeholder="Enter username" >
+		<br>
+		<label for="password"><b>Password</b></label>
+		<br>
+		<input type="password" name="password" id="password" placeholder="Enter password">
+		<b>
+		<label for="password1"><b>Confirm Password</b></label>
+		<br>
+		<input type="password" name="password1" id="password1" placeholder="Enter password again" >
+		<br>
+		<input type="submit" name="submit" value="Submit">
+		<br>
+		<button id ="login" type="button"><a href ="login.html">Login</a></button>
+	</form>
+	</div>
+	
+	</body>
+</html>
